@@ -9,7 +9,7 @@ class Course extends Model
 {
     use HasFactory;
 
-    public function student()
+    public function students()
     {
         return $this->belongsToMany(Student::class, 'student_course_grade')->withPivot('grade_id');
     }

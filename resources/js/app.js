@@ -18,6 +18,27 @@ const app = createApp({});
 import ExampleComponent from './components/ExampleComponent.vue';
 app.component('example-component', ExampleComponent);
 
+import SchoolComponent from './components/SchoolComponent.vue';
+app.component('school-component', SchoolComponent);
+
+import CoursesComponent from './components/CoursesComponent.vue';
+app.component('courses-component', CoursesComponent);
+
+import GradesComponent from './components/GradesComponent.vue';
+app.component('grades-component', GradesComponent);
+
+import StudentsComponent from './components/StudentsComponent.vue';
+app.component('students-component', StudentsComponent);
+
+import ListComponent from './components/ListComponent.vue';
+app.component('list-component', ListComponent);
+
+import CreateComponent from './components/CreateComponent.vue';
+app.component('create-component', CreateComponent);
+
+import AssignComponent from './components/AssignComponent.vue';
+app.component('assign-component', AssignComponent);
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
